@@ -1,0 +1,152 @@
+body {
+  background-color: #e0e0e0;
+}
+
+.container {
+  width: 1285px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#header {
+  border-bottom:4px solid grey;
+  overflow: auto;
+}
+
+#title {
+  float: left;
+  overflow: auto;
+}
+
+#numbers {
+  float: right;
+  overflow: auto;
+}
+
+#go {
+  float: right;
+  overflow: auto;
+}
+
+#alert {
+  float: right;
+  overflow: auto;
+}
+
+#leftside {
+  float: left;
+}
+
+#rightside {
+  float: right;
+}
+
+/*All Boxes*/
+
+.box {
+  width: 550px;
+  margin: 25px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.heading {
+  height: 50px;
+  padding: 5px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.java {
+  background-color: green;
+
+}
+
+.python {
+  background-color: pink;
+}
+
+.word-press {
+  background-color: lightblue;
+}
+
+.books {
+  float: left;
+}
+
+.dots {
+  float: left;
+}
+
+.time {
+  float: right;
+}
+
+/*Inside Boxes*/
+.content {
+  /*clear: both;*/
+  padding: 5px 30px 5px 30px;
+}
+
+.course {
+  font-size: 17px;
+  color: grey;
+}
+
+.content-title {
+  font-size: 20px;
+}
+
+.content-text {
+  font-size: 16px;
+  color: grey;
+}
+
+/*Box Footer*/
+.footer {
+clear: both;
+padding: 5px 30px 5px 30px;
+overflow: auto;
+}
+
+.btn-left {
+  float: left;
+  border: 2px solid grey;
+  border-radius: 45px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.btn-right {
+  float: left;
+  border: 2px solid grey;
+  border-radius: 45px;
+  padding: 5px;
+}
+
+.star {
+  float: right;
+}
+
+.play {
+  float: right;
+}
+
+
+/*Play Button*/
+.round-button {
+	box-sizing: border-box;
+	display:block;
+	width:80px;
+	height:80px;
+	padding-top: 14px;
+	padding-left: 8px;
+	line-height: 20px;
+	border: 6px solid #fff;
+	border-radius: 50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background-color: rgba(0,0,0,0.5);
+	font-size:20px;
+	font-weight:bold;
+	transition: all 0.3s ease;
